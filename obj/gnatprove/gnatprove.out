@@ -1,0 +1,38 @@
+Summary of SPARK analysis
+=========================
+
+--------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total       Flow   Interval   CodePeer      Provers   Justified   Unproved
+--------------------------------------------------------------------------------------------------------
+Data Dependencies                 .          .          .          .            .           .          .
+Flow Dependencies                 .          .          .          .            .           .          .
+Initialization                    7          7          .          .            .           .          .
+Non-Aliasing                      .          .          .          .            .           .          .
+Run-time Checks                   1          .          .          .     1 (CVC4)           .          .
+Assertions                        .          .          .          .            .           .          .
+Functional Contracts             11          .          .          .    11 (CVC4)           .          .
+LSP Verification                  .          .          .          .            .           .          .
+--------------------------------------------------------------------------------------------------------
+Total                            19    7 (37%)          .          .     12 (63%)           .          .
+
+
+Analyzed 1 unit
+in unit submarine, 18 subprograms and packages out of 18 analyzed
+  submarine at submarine.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  submarine.airlocks at submarine.ads:45 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  submarine.beginOperating at submarine.ads:73 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  submarine.checkAirlockDoors at submarine.ads:69 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  submarine.checkDepth at submarine.ads:106 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  submarine.checkOxygen at submarine.ads:100 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  submarine.checkReactor at submarine.ads:97 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  submarine.displayWarning at submarine.ads:111 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  submarine.fireTorpedo at submarine.ads:142 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  submarine.loadTorpedo at submarine.ads:146 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  submarine.lockDoor1 at submarine.ads:49 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  submarine.lockDoor2 at submarine.ads:53 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  submarine.openDoor1 at submarine.ads:63 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  submarine.openDoor2 at submarine.ads:59 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  submarine.oxygenRunsOut at submarine.ads:103 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  submarine.oxygenSurface at submarine.ads:119 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  submarine.stopDepth at submarine.ads:126 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  submarine.storeTorpedo at submarine.ads:150 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)

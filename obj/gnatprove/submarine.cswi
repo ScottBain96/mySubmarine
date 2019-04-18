@@ -1,0 +1,7 @@
+20190418050432
+-c
+-x
+ada
+-gnatA
+-gnatc
+-gnates=C:\Users\Scott\Documents\GitHub\mySubmarine\obj\gnatprove\55863c86.tmp

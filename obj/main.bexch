@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Scott\Downloads\formalApproachesFinal-master\formalApproachesFinal-master\submarine.gpr
+20190415230504
+[BOUND OBJECT FILES]
+C:\Users\Scott\Downloads\formalApproachesFinal-master\formalApproachesFinal-master\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Scott\Downloads\formalApproachesFinal-master\formalApproachesFinal-master\obj\
+-LC:\Users\Scott\Downloads\formalApproachesFinal-master\formalApproachesFinal-master\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
